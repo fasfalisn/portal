@@ -22,29 +22,23 @@ Before running this project, make sure you have the following installed:
 
 1\. **Go to project's folder**:
 
-   ```bash
-
-   cd <repository-folder>
-
-   ```
+```bash
+cd <repository-folder>
+```
 
 2\. **Install dependencies**:
 
-   ```bash
-
-   npm install
-
-   ```
+```bash
+npm install
+```
 
 3\. **Run the development server**:
 
-   ```bash
+```bash
+npm run dev
+```
 
-   npm run dev
-
-   ```
-
-   The application will be available at `http://localhost:5173`.
+The application will be available at `http://localhost:5173`.
 
 ## Features
 
@@ -111,9 +105,6 @@ Additionally, a **Not Found (404) page** is implemented to handle undefined rout
 To run unit tests using Vitest:
 
 bash
-
-Αντιγραφή κώδικα
-
 `npm run test`
 
 This will execute all the unit tests in the project. Given the limited time, I've only implemented some basic unit tests on the views. 
